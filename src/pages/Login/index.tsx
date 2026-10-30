@@ -54,10 +54,14 @@ export default function LoginScreen() {
       <View style={styles.boxTop}>
         <Image source={Logo} style={styles.logo} />
         <Text style={styles.textTop}>Pokédex</Text>
+        <Text style={{color: theme.colors.textSecondary}}>Turma DS - ETE · Daniel</Text>
       </View>
       
       <View style={styles.boxMid}>
       <Text style={styles.titleInput}>E-mail</Text>
+      <Text>
+        Você digitou: {email} ({email.length} letras)
+      </Text>
       <View style={styles.boxInput}>
       <TextInput
           value={email}

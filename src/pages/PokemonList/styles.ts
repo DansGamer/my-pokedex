@@ -1,5 +1,6 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, TouchableOpacity } from 'react-native';
 import type { Theme } from '../../global/themes';
+import { styleText } from 'node:util';
 
 export const createStyles = (theme: Theme) =>
   StyleSheet.create({
